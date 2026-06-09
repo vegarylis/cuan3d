@@ -1,0 +1,30 @@
+{
+  "name": "cuan3d",
+  "version": "0.3",
+  "description": "web application to create and edit annotations on 3d models of cuneiform tablets",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/vegarylis/cuan3d"
+  },
+  "keywords": [
+    "web",
+    "3d",
+    "annotations",
+    "cuneiform tablets"
+  ],
+  "author": "Paula Dicke <pdicke@students.uni-mainz.de>",
+  "license": "MIT",
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.172.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.14"
+  }
+}

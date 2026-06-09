@@ -1,0 +1,20 @@
+<i>Load new model (from local file)</i>: Loads a new cuneiform tablet from a ply-file located on your computer.
+
+<i>Load new model (from URL)</i>: Loads a new cuneiform tablet from a ply-file accessible through a URL.
+
+<i>Load new annotations (local file)</i>: Loads new annotations from a json-file located on your computer. It's important that the json-file stores every annotation as a key-value pair and that the value contains a key-value pair with the key 'body' and a key-value pair with the key 'target'. The latter must contain another key-value pair with the key 'selector' which contains in its value at least a key-value pair with the key 'value' and a wktstring (polygon or multilinestring) as its value.
+
+<i>Load new annotations (URL)</i>: Loads new annotations from a json-file accessible through a URL. The json-file must meet all criteria given in the previous paragraph.
+
+<i>Load new annotations with corresponding model (local file)</i>: Loads new annotations from a json-file located on your computer and the cuneiform tablet behind the URL given in the 'target' key-value pair of the first annotation. The json-file must meet all criteria given above. Furthermore it must contain the key-value pair with the key 'source' in its 'target' key-value pair. The respective value must be a URL pointing to a ply-file.
+
+<i>Load new annotations with corresponding model (URL)</i>: Loads new annotations from a json-file accessible through a URL and the cuneiform tablet behind the URL given in the 'target' key-value pair of the first annotation. The json-file must meet all criteria given in the previous paragraph.
+
+<i>Load new transliteration</i>: Loads a json-file containing a transliteration located on your computer. The json-file must be composed of one key-value pair, where the value contains the transliteration content. New lines must be broken up through \n.
+
+<i>Export annotations</i>: Shows a link to export the annotations which are currently displayed on the screen in a json-file. Clicking on the link downloads the json-file to your local computer.
+
+<i>Reset</i>: Resets all your loaded cuneiform tablets, annotations and transliterations.
+
+<i>Done</i>: Leads you back to the main menu.
+

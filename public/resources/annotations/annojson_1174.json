@@ -1,0 +1,1386 @@
+{
+    "#010a9fdd-d84f-435b-9736-9c1f9489aeb8": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "9(disz)",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "5",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "5",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((13.788443237346897 26.88200530685541 -1.6104460239410399,13.788443237346897 26.88200530685541 -6.98955397605896,13.788443237346897 22.229301635363633 -1.6104460239410399,13.788443237346897 22.229301635363633 -6.98955397605896,7.353779867021871 26.88200530685541 -1.6104460239410399,7.353779867021871 26.88200530685541 -6.98955397605896,7.353779867021871 22.229301635363633 -1.6104460239410399,7.353779867021871 22.229301635363633 -6.98955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#010a9fdd-d84f-435b-9736-9c1f9489aeb8",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#c9e827a4-65cc-48b2-a38d-d02ff44328eb": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "u4",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "5",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "4",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((7.41143662142721 27.686066422353267 -2.01044602394104,7.41143662142721 27.686066422353267 -7.38955397605896,7.41143662142721 23.20587349098147 -2.01044602394104,7.41143662142721 23.20587349098147 -7.38955397605896,3.0447853686700697 27.686066422353267 -2.01044602394104,3.0447853686700697 27.686066422353267 -7.38955397605896,3.0447853686700697 23.20587349098147 -2.01044602394104,3.0447853686700697 23.20587349098147 -7.38955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#c9e827a4-65cc-48b2-a38d-d02ff44328eb",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#4331eca8-605d-40cb-a6cd-8783a3f932ef": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "nu",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-11.375338486794119 12.464430797809863 -0.6104460239410399,-11.375338486794119 12.464430797809863 -5.98955397605896,-11.375338486794119 7.237397758105329 -0.6104460239410399,-11.375338486794119 7.237397758105329 -5.98955397605896,-14.994995612623287 12.464430797809863 -0.6104460239410399,-14.994995612623287 12.464430797809863 -5.98955397605896,-14.994995612623287 7.237397758105329 -0.6104460239410399,-14.994995612623287 7.237397758105329 -5.98955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#4331eca8-605d-40cb-a6cd-8783a3f932ef",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#926bd425-fbcf-4b4a-b532-72083fd53346": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "banda3",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-3.0447853686700714 12.292343917002205 -2.01044602394104,-3.0447853686700714 12.292343917002205 -7.38955397605896,-3.0447853686700714 6.375691776130035 -2.01044602394104,-3.0447853686700714 6.375691776130035 -7.38955397605896,-11.260448924707013 12.292343917002205 -2.01044602394104,-11.260448924707013 12.292343917002205 -7.38955397605896,-11.260448924707013 6.375691776130035 -2.01044602394104,-11.260448924707013 6.375691776130035 -7.38955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#926bd425-fbcf-4b4a-b532-72083fd53346",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#d0404773-7f6d-4aa8-84ee-b7450e97ebc6": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "ku3",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((2.240558434060336 11.890101429597113 -1.81044602394104,2.240558434060336 11.890101429597113 -7.18955397605896,2.240558434060336 6.145960028844937 -1.81044602394104,2.240558434060336 6.145960028844937 -7.18955397605896,-3.6196571258291677 11.890101429597113 -1.81044602394104,-3.6196571258291677 11.890101429597113 -7.18955397605896,-3.6196571258291677 6.145960028844937 -1.81044602394104,-3.6196571258291677 6.145960028844937 -7.18955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#d0404773-7f6d-4aa8-84ee-b7450e97ebc6",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#be0ac301-f23e-47d3-b567-3c618a52bc3d": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "sa6",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "4",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((12.869326740650052 11.718014548789453 -1.7104460239410404,12.869326740650052 11.718014548789453 -7.08955397605896,12.869326740650052 5.686496534274733 -1.7104460239410404,12.869326740650052 5.686496534274733 -7.08955397605896,2.183325626378565 11.718014548789453 -1.7104460239410404,2.183325626378565 11.718014548789453 -7.08955397605896,2.183325626378565 5.686496534274733 -1.7104460239410404,2.183325626378565 5.686496534274733 -7.08955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#be0ac301-f23e-47d3-b567-3c618a52bc3d",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#6b1b7aed-0dea-4987-8138-03bb786ce80c": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "e2",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-8.905000928559573 17.117134469301647 -0.9104460239410401,-8.905000928559573 17.117134469301647 -6.28955397605896,-8.905000928559573 12.522075664287307 -0.9104460239410401,-8.905000928559573 12.522075664287307 -6.28955397605896,-14.477780609869527 17.117134469301647 -0.9104460239410401,-14.477780609869527 17.117134469301647 -6.28955397605896,-14.477780609869527 12.522075664287307 -0.9104460239410401,-14.477780609869527 12.522075664287307 -6.28955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#6b1b7aed-0dea-4987-8138-03bb786ce80c",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#fb9c9d65-e2f6-4ed2-bb8c-620adc0533b1": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "gal",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-3.389878001654955 17.28964520942164 -1.6104460239410399,-3.389878001654955 17.28964520942164 -6.98955397605896,-3.389878001654955 12.119833176882214 -1.6104460239410399,-3.389878001654955 12.119833176882214 -6.98955397605896,-9.651995055487541 17.28964520942164 -1.6104460239410399,-9.651995055487541 17.28964520942164 -6.98955397605896,-9.651995055487541 12.119833176882214 -1.6104460239410399,-9.651995055487541 12.119833176882214 -6.98955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#fb9c9d65-e2f6-4ed2-bb8c-620adc0533b1",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#29405e81-a80b-457c-849b-9168ff597157": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "sza3",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "4",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-7.756105307688521 22.91849687721893 -1.21044602394104,-7.756105307688521 22.91849687721893 -6.58955397605896,-7.756105307688521 17.63424283034929 -1.21044602394104,-7.756105307688521 17.63424283034929 -6.58955397605896,-14.477780609869527 22.91849687721893 -1.21044602394104,-14.477780609869527 22.91849687721893 -6.58955397605896,-14.477780609869527 17.63424283034929 -1.21044602394104,-14.477780609869527 17.63424283034929 -6.58955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#29405e81-a80b-457c-849b-9168ff597157",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#78089804-7a01-470c-b28c-830bf8d5ac8f": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "tum",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "4",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((5.400657311541078 23.091007617338924 -1.7104460239410404,5.400657311541078 23.091007617338924 -7.08955397605896,5.400657311541078 17.634242830349287 -1.7104460239410404,5.400657311541078 17.634242830349287 -7.08955397605896,-4.768552746700218 23.091007617338924 -1.7104460239410404,-4.768552746700218 23.091007617338924 -7.08955397605896,-4.768552746700218 17.634242830349287 -1.7104460239410404,-4.768552746700218 17.634242830349287 -7.08955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#78089804-7a01-470c-b28c-830bf8d5ac8f",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#2f800280-da53-498f-9ef0-7f080c120a41": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "iti",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "5",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-8.100773993949838 28.95001489173365 -1.0104460239410402,-8.100773993949838 28.95001489173365 -6.38955397605896,-8.100773993949838 22.401812375483622 -1.0104460239410402,-8.100773993949838 22.401812375483622 -6.38955397605896,-14.19076867801355 28.95001489173365 -1.0104460239410402,-14.19076867801355 28.95001489173365 -6.38955397605896,-14.19076867801355 22.401812375483622 -1.0104460239410402,-14.19076867801355 22.401812375483622 -6.38955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#2f800280-da53-498f-9ef0-7f080c120a41",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#4aff6617-073c-4153-822d-6760d644ee12": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "du6",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "5",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-2.6428838747269854 28.432906530686004 -1.9104460239410397,-2.6428838747269854 28.432906530686004 -7.28955397605896,-2.6428838747269854 22.918496877218935 -1.9104460239410397,-2.6428838747269854 22.918496877218935 -7.28955397605896,-9.019890490646677 28.432906530686004 -1.9104460239410397,-9.019890490646677 28.432906530686004 -7.28955397605896,-9.019890490646677 22.918496877218935 -1.9104460239410397,-9.019890490646677 22.918496877218935 -7.28955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#4aff6617-073c-4153-822d-6760d644ee12",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#8d1ad8c9-3d87-4f25-8aa8-ab8b12e9a5cf": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "ku3",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "5",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((3.217331685162513 28.490551397163447 -1.9104460239410397,3.217331685162513 28.490551397163447 -7.28955397605896,3.217331685162513 22.91849687721893 -1.9104460239410397,3.217331685162513 22.91849687721893 -7.28955397605896,-3.9066690576851446 28.490551397163447 -1.9104460239410397,-3.9066690576851446 28.490551397163447 -7.28955397605896,-3.9066690576851446 22.91849687721893 -1.9104460239410397,-3.9066690576851446 22.91849687721893 -7.28955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#8d1ad8c9-3d87-4f25-8aa8-ab8b12e9a5cf",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#04e1a518-d95f-404b-ba1c-346e651a8985": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "al",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "4",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "1",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((14.477780609869527 22.631544122768723 -1.5104460239410402,14.477780609869527 22.631544122768723 -6.88955397605896,14.477780609869527 17.174779335779085 -1.5104460239410402,14.477780609869527 17.174779335779085 -6.88955397605896,5.228110995048638 22.631544122768723 -1.5104460239410402,5.228110995048638 22.631544122768723 -6.88955397605896,5.228110995048638 17.174779335779085 -1.5104460239410402,5.228110995048638 17.174779335779085 -6.88955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#04e1a518-d95f-404b-ba1c-346e651a8985",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#4de7e5c7-2270-4359-a7b7-1fbb91988454": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "ugula",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "0",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((-9.4794487389951 6.892800137177678 -0.81044602394104,-9.4794487389951 6.892800137177678 -6.18955397605896,-9.4794487389951 1.6081222309957024 -0.81044602394104,-9.4794487389951 1.6081222309957024 -6.18955397605896,-14.47778060986953 6.892800137177678 -0.81044602394104,-14.47778060986953 6.892800137177678 -6.18955397605896,-14.47778060986953 1.6081222309957024 -0.81044602394104,-14.47778060986953 1.6081222309957024 -6.18955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#4de7e5c7-2270-4359-a7b7-1fbb91988454",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#22174ad2-aa62-4696-9539-81830707ed89": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "ensi",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((11.720431119779004 17.346866216586744 -1.81044602394104,11.720431119779004 17.346866216586744 -7.18955397605896,11.720431119779004 11.545503808669462 -1.81044602394104,11.720431119779004 11.545503808669462 -7.18955397605896,-3.791779495598039 17.346866216586744 -1.81044602394104,-3.791779495598039 17.346866216586744 -7.18955397605896,-3.791779495598039 11.545503808669462 -1.81044602394104,-3.791779495598039 11.545503808669462 -7.18955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#22174ad2-aa62-4696-9539-81830707ed89",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    },
+    "#4472679d-dc81-4c16-9a47-210efe111429": {
+        "type": "Annotation",
+        "body": [
+            {
+                "type": "TextualBody",
+                "purpose": "Transliteration",
+                "value": "ka",
+                "source": "http://purl.org/cuneiform/Transliteration",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "value": "Character",
+                "purpose": "tagging",
+                "source": "http://purl.org/cuneiform/Character",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Charindex",
+                "value": "4",
+                "source": "http://purl.org/cuneiform/CharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Line",
+                "value": "3",
+                "source": "http://purl.org/cuneiform/Line",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "Wordindex",
+                "value": "2",
+                "source": "http://purl.org/cuneiform/WordIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            },
+            {
+                "type": "TextualBody",
+                "purpose": "RelCharindex",
+                "value": "1",
+                "source": "http://purl.org/cuneiform/RelativeCharacterIndex",
+                "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "creator": {
+                    "type": "person",
+                    "name": "Timo Homburg"
+                }
+            }
+        ],
+        "target": {
+            "source": "https://heidicon.ub.uni-heidelberg.de/eas/partitions/1/0/577000/577526/97a78512f61fae4dbdf80c43e7725822a3a23308/application/x-ply/HS_1174_HeiCuBeDa_GigaMesh.ply",
+            "selector": {
+                "type": "WKTSelector",
+                "value": "POLYGON Z((14.822449296130845 17.17477933577909 -0.31044602394104004,14.822449296130845 17.17477933577909 -5.68955397605896,14.822449296130845 11.545503808669462 -0.31044602394104004,14.822449296130845 11.545503808669462 -5.68955397605896,11.54788480328656 17.17477933577909 -0.31044602394104004,11.54788480328656 17.17477933577909 -5.68955397605896,11.54788480328656 11.545503808669462 -0.31044602394104004,11.54788480328656 11.545503808669462 -5.68955397605896))"
+            },
+            "rights": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "@context": "http://www.w3.org/ns/anno.jsonld",
+        "id": "#4472679d-dc81-4c16-9a47-210efe111429",
+        "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "generator": {
+            "id": "https://vegarylis.github.io/cuan3d",
+            "type": "Software",
+            "name": "Cuan3D 0.3",
+            "homepage": "https://vegarylis.github.io/cuan3d"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+Cuan3D is a prototype of a web application to annotate cuneiform tablets in 3D. It is possible to load and change existing annotations or create new ones. Annotations are either shown and drawn as boxes or polygons.
+
+This application was created as part of a project in the study programme "Digital Methods in the Humanities and Cultural Studies" at Mainz University of Applied Sciences and Johannes Gutenberg University. It is attached to the project "Digital editing of the cuneiform texts from Haft Tappeh" of i3mainz, a research institute at Mainz University of Applied Sciences. 
+
+Cuan3D is licensed under the MIT license. The code for the software can be found under <a href="https://github.com/vegarylis/cuan3d">https://github.com/vegarylis/cuan3d</a>.

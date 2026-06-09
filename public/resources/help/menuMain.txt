@@ -1,0 +1,4 @@
+To switch the cuneiform tablet upside down or restore it's default position one can use the two buttons on the upper right hand side of the application.
+The cuneiform tablet can also be rotated in any direction by using the keyboard shortcuts shown below:
+
+<img src="/cuan3d/resources/help/Shortcuts_turning.png" alt="Shortcuts for turning model of cuneiform tablet">

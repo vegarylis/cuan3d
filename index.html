@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cuan3D</title> 
+
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <script type="module" src="./main.js"></script>
+    <div id="screen">
+        <div id="annoscontainer" class="sidecontainer">
+            <div id="mode" class="modebutton btn-wide">
+                <button id="modebutton" type="button" class="background-grey"></button>
+            </div>
+            <div id="modeContent" class="scrollbar">
+                <div id="uppercontainer">
+                    <div id="userCredentials">
+                        <div class="formbold-form-wrapper">
+                            <p class="formbold-form-label additional-margin">Please enter your credentials to give you credit for the annotations you are going to edit and create.</p>
+                            <form id="credentialsForm" class="additional-margin">
+                                <div id="credentialsInputContainer">
+                                    <label for="type" class="formbold-form-label"> Type </label>
+                                    <select name="type" id="typeOfUser" class="formbold-form-input width-97">
+                                        <option value="person">Person</option>
+                                        <option value="institution">Institution</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <label for="username" class="formbold-form-label"> Name </label>
+                                    <input type="text" name="username" id="username" class="formbold-form-input width-90" />
+                                    <label id="nicknameLabel" for="nickname" class="formbold-form-label"> Nickname (optional) </label>
+                                    <input type="text" name="nickname" id="nickname" class="formbold-form-input width-90"/>
+                                    <label for="orcidid" class="formbold-form-label"> ORCID ID (optional) </label>
+                                    <input type="text" name="orcidid" id="orcidid" class="formbold-form-input width-90"/>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="doneCredentialsContainer">
+                            <div class="btn-group btn-wide">
+                                <button id="doneCredentials" class="background-white" type="button">Done</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="annoDisplayMenu">
+                        <p id="annoContent" class="label">Click on a box!</p>
+                        <ul class="taglist" id="taglistDisplay"></ul>
+                    </div>
+                    <div id="importExportMenu">
+                        <div id="importExportBtnContainer">
+                            <div id="loadModelContainer" class="btn-group btn-wide">
+                                <label for="importMdlBtn">Load new model (from local file)</label>
+                                <input id="importMdlBtn" type="file" name="importMdlBtn" accept=".ply">
+                                <label for="importMdlUrlBtn" id="importMdlUrlBtnLabel">Load new model (from URL)</label><br>
+                                <input id="importMdlUrlBtn" type="url" name="importMdlUrlBtn" placeholder="Enter URL..." class="initialNotVisible">
+                                <button type="button" class="background-white initialNotVisible" id="importMdlUrlBtnSubmit">Submit</button>
+                            </div>
+                            <div id="loadAnnotationsContainer" class="btn-group btn-wide">
+                                <label for="importAnnoBtn">Load new annotations (local file)</label>
+                                <input id="importAnnoBtn" type="file" name="importAnnoBtn" accept="application/json">
+                                <label for="importAnnoUrlBtn" id="importAnnoUrlBtnLabel">Load new annotations (URL)</label>
+                                <input id="importAnnoUrlBtn" type="url" name="importAnnoUrlBtn" placeholder="Enter URL..." class="initialNotVisible">
+                                <button type="button" class="background-white initialNotVisible" id="importAnnoUrlBtnSubmit">Submit</button>
+                                <label for="importAnnoWithMdlBtn" style="line-height: 25px;">Load new annotations with corresponding model (local file)</label>
+                                <input id="importAnnoWithMdlBtn" type="file" name="importAnnoWithMdlBtn" accept="application/json">
+                                <label for="importAnnoWithMdlUrlBtn" id="importAnnoWithMdlUrlBtnLabel" style="line-height: 25px;">Load new annotations with corresponding model (URL)</label>
+                                <input id="importAnnoWithMdlUrlBtn" type="url" name="importAnnoWithMdlUrlBtn" placeholder="Enter URL..." class="initialNotVisible">
+                                <button type="button" class="background-white initialNotVisible" id="importAnnoWithMdlUrlBtnSubmit">Submit</button>
+                            </div>
+                            <div id="loadTransliterationContainer" class="btn-group btn-wide">
+                                <label for="importTranslitBtn">Load new transliteration</label>
+                                <input id="importTranslitBtn" type="file" name="importTranslitBtn" accept="application/json">    
+                            </div>
+                            <div id="exportAnnotationsContainer" class="btn-group btn-wide">
+                                <button type="button" class="background-white" id="exportAnnoBtn">Export annotations</button>    
+                            </div>
+                        </div>
+                        <div id="fileSelectorPanels"></div>    
+                    </div>
+                    <div id="formbold-form-wrapper" class="formbold-form-wrapper initialNotVisible">
+                    <form id="annoContentManipulation">
+                        <div class="input-fields">
+                            <label for="paleoCode" class="formbold-form-label"> PaleoCode </label>
+                            <input type="text" name="paleoCode" id="PaleoCode" class="formbold-form-input"/>
+                            <button id="deletePaleoCode" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+
+                            <label for="tabletSide" class="formbold-form-label"> TabletSide </label>
+                            <select name="tabletSide" id="TabletSide" class="formbold-form-input">
+                                <option value="selected">Selected</option>
+                                <option value="front">Front</option>
+                                <option value="back">Back</option>
+                                <option value="left">Left</option>
+                                <option value="right">Right</option>
+                                <option value="top">Top</option>
+                                <option value="bottom">Bottom</option>
+                            </select>
+                            <button id="deleteTabletSide" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+
+                            <label for="signRotation" class="formbold-form-label"> SignRotation </label>
+                            <select name="signRotation" id="SignRotation" class="formbold-form-input">
+                                <option value="0°">0°</option>
+                                <option value="45°">45°</option>
+                                <option value="90°">90°</option>
+                                <option value="135°">135°</option>
+                                <option value="180°">180°</option>
+                                <option value="225°">225°</option>
+                                <option value="270°">270°</option>
+                                <option value="315°">315°</option>
+                            </select>
+                            <button id="deleteSignRotation" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+                            
+                            <label for="transliteration" class="formbold-form-label"> Transliteration </label>
+                            <input type="text" name="transliteration" id="Transliteration" class="formbold-form-input"/>
+                            <button id="deleteTransliteration" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button> 
+
+                            <label for="column" class="formbold-form-label">Column</label>
+                            <input type="number" id="Column" name="column" min="1" class="formbold-form-input">
+                            <button id="deleteColumn" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+
+                            <label for="line" class="formbold-form-label">Line</label>
+                            <input type="number" id="Line" name="line" min="1" class="formbold-form-input">
+                            <button id="deleteLine" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button> 
+
+                            <label for="charIndex" class="formbold-form-label">Charindex</label>
+                            <input type="number" id="Charindex" name="charIndex" min="1" class="formbold-form-input">
+                            <button id="deleteCharindex" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button> 
+
+                            <!-- <label for="RelCharIndex" class="formbold-form-label">RelCharindex</label>
+                            <input type="number" id="RelCharindex" name="RelCharIndex" min="1" class="formbold-form-input"> -->
+
+                            <label for="wedgeIndex" class="formbold-form-label">Wedgeindex</label>
+                            <input type="number" id="Wedgeindex" name="wedgeIndex" min="1" class="formbold-form-input">
+                            <button id="deleteWedgeindex" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+
+                            <label for="wedgeType" class="formbold-form-label"> Wedgetype </label>
+                            <select name="wedgeType" id="Wedgetype" class="formbold-form-input">
+                                <option value="">undefined</option>
+                                <option value="a">Paleocode: A</option>
+                                <option value="b">Paleocode: B</option>
+                                <option value="c">Paleocode: C</option>
+                                <option value="d">Paleocode: D</option>
+                                <option value="e">Paleocode: E</option>
+                                <option value="f">Paleocode: F</option>
+                                <option value="w">Paleocode: W</option>
+                                <option value="x">Paleocode: X</option>
+                                <option value="y">Paleocode: Y</option>
+                            </select>
+                            <button id="deleteWedgetype" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+
+                            <label for="wordIndex" class="formbold-form-label">Wordindex</label>
+                            <input type="number" id="Wordindex" name="wordIndex" min="1" class="formbold-form-input">
+                            <button id="deleteWordindex" type="button" class="deletebtn"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12">
+                                    <path style="fill:white; stroke: white; stroke-width:3" d="M268 416h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12zM432 80h-82.41l-34-56.7A48 48 0 0 0 274.41 0H173.59a48 48 0 0 0-41.16 23.3L98.41 80H16A16 16 0 0 0 0 96v16a16 16 0 0 0 16 16h16v336a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128h16a16 16 0 0 0 16-16V96a16 16 0 0 0-16-16zM171.84 50.91A6 6 0 0 1 177 48h94a6 6 0 0 1 5.15 2.91L293.61 80H154.39zM368 464H80V128h288zm-212-48h24a12 12 0 0 0 12-12V188a12 12 0 0 0-12-12h-24a12 12 0 0 0-12 12v216a12 12 0 0 0 12 12z"></path>
+                                </svg>
+                            </button>
+                            
+                        </div>
+                        <div class="commentcontainer">
+                            <!-- Do not delete the first two hidden textarea otherwise the following textarea will not be displayed correctly in all browsers (e.g. Firefox)
+                            (s. https://github.com/twbs/bootstrap/issues/39202) -->
+                            <textarea class="hidden"></textarea> 
+                            <textarea class="hidden"></textarea> 
+                            <textarea rows="6" cols="50" name="comment" id="commenting" placeholder="Add a comment..." class="formbold-form-input width-90"></textarea>
+                        </div>
+                        <div class="tagcontainer">
+                            <div class="tagsToEnter">
+                                <p class="formbold-form-label">Choose from default tags:</p>
+                                <div id="defaultTags">
+                                    <div id="defaultTagsCol1"></div>
+                                    <div id="defaultTagsCol2"></div>
+                                </div>
+                                <p class="formbold-form-label">Add a new tag by writing it into this field and pressing enter:</p>
+                                <input class="formbold-form-input width-90" id="tagToAdd" placeholder="Add a new tag...">                          
+                            </div>
+                            <ul class="taglist" id="taglistEdit"></ul>   
+                        </div>
+                    </form>
+                    </div>
+                </div>  
+                <div id="lowercontainer"></div>
+            </div>
+            <div id="annobuttongroup">
+                <div id="modebuttons" class="btn-group btn-wide">
+                    <button class="background-white" id="importExportBtn" type="button">Import/Export</button>
+                    <button class="background-white" id="createAnnoBoxBtn" type="button">Create new annotation (box)</button>
+                    <button class="background-white" id="createAnnoPolygonBtn" type="button">Create new annotation (polygon)</button>
+                    <button class="background-white" id="editAnnoContentBtn" type="button">Edit annotation content</button>
+                    <button class="background-white" id="editAnnoFormBtn" type="button">Edit annotation form</button> 
+                </div>
+                <div id="doneresetbuttons" class="btn-group btn-small">
+                    <button type="button" id="reset" class="background-white">Reset</button>
+                    <button type="button" id="done" class="background-white">Done</button> 
+                </div>
+            </div>
+        </div>
+        <div id="mainWindow" tabindex="0">
+            <canvas id="c"></canvas> 
+        </div>
+        <div id="infocontainer" class="sidecontainer">
+            <div id="infotextcontainer">
+                <span id="turnMdlBtn" class="spanbtn background-white"></span>
+                <span id="turnMdlBackBtn" class="spanbtn background-white" style="margin-top: 15px;"></span>
+            </div>
+            <div class="scrollbar">
+                <div id="infoTransliteration">
+                    <p class="label"><b>Transliteration:</b></p>
+                    <p id="transliterationContent" class="label"></p>
+                </div>
+                <div id="aboutcontainer" class="initialNotVisible"></div>
+                <div id="infoHelpContainer" class="initialNotVisible"></div>
+            </div>
+            <div id="aboutBtnDiv" class="btn-wide">
+                <button id="infoHelpBtn" type="button" class="button background-white">Help</button>
+                <button id="aboutBtn" type="button" class="button background-grey">About</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+

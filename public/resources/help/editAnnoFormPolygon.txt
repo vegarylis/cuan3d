@@ -1,0 +1,6 @@
+Here you can change the form of the selected polygon annotation.
+
+For that click on a point on the line (that point gets highlighted) and then click on the point on the tablet this point shall be moved to. The lines between the moved point and the endpoints of the line(s) are then redrawn. 
+
+By pressing crtl+z on your keyboard point manipulations can be undone.
+Clicking on the button 'Delete annotation' will delete the whole annotation.

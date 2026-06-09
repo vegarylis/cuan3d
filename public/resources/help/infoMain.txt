@@ -1,0 +1,23 @@
+This application is made up of three parts: the main screen in the middle displaying the cuneiform tablet, the editing menu on the left and the information menu on the right. 
+
+<b>Editing menu</b>
+
+<i>See the content of an annotation</i>: select annotation (s. 'Main screen').
+
+<i>Show help for specific functionality (e.g. 'Import/Export')</i>: change into that mode by clicking the respective button (e.g. 'Import/Export'), click on the button at the top of the mode menu.
+
+<b>Main screen</b>
+
+<i>Select annotation</i>: use the left mouse button to click on a box or polygon (selected annotations are orange).
+
+<i>Move cuneiform tablet</i>: move the mouse pointer over the cuneiform tablet, press the right mouse button and keep it pressed while moving the mouse.
+
+<i>Rotate cuneiform tablet</i>: move the mouse pointer over the cuneiform tablet, press the mouse button in the middle and keep it pressed while moving the mouse.
+
+<b>Information menu</b>
+
+<i>About transliteration content</i>: displays the content of the loaded transliteration file. Doesn't change if content of annotation is changed manually.
+
+<i>Rotate model of cuneiform tablet</i>: use the two buttons on the top of this menu or use the shortcuts displayed below. Be aware that the shortcuts only work if the last click with the mouse before using a shortcut was in the 'Main screen'. 
+
+<img src="/cuan3d/resources/help/Shortcuts_turning.png" alt="Shortcuts for turning model of cuneiform tablet">

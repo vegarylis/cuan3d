@@ -1,0 +1,12 @@
+Here you can change the position and the size of the selected annotation box.
+
+The box can be moved around with the left mouse button. Alternatively you can use the menu on the left to change the position of the box.
+
+The size of the box can be changed on the left side menu as well.
+
+By pressing crtl+z on your keyboard manipulations can be undone.
+Clicking on the button 'Delete annotation' will delete the whole annotation.
+
+The box can be rotated in any direction by using the keyboard shortcuts shown below:
+
+<img src="/cuan3d/resources/help/Shortcuts_turning.png" alt="Shortcuts for turning model of cuneiform tablet">

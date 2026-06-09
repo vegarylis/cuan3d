@@ -1,0 +1,373 @@
+#screen {
+  display: grid;
+  grid-template-columns: 340px 1fr 340px;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Main Window */
+#mainWindow {
+  height: 100vh;
+}
+
+/* Annotation window */
+.padding-left {
+  padding-left: 5px;
+}
+.sidecontainer {
+    background-color: #444444;
+    /* Grid */
+    display: grid;
+    grid-template-columns: auto;
+    overflow-x: hidden;
+    /* Additional stuff */
+    padding: 0px 10px 0px 10px;
+}
+#annoscontainer {
+  grid-template-rows: 70px 1fr min-content;
+}
+.scrollbar {
+  overflow: auto;
+}
+#annoDisplayMenu {
+  display: none;
+}
+#taglistDisplay {
+  margin-left: 25px;
+}
+#lowercontainer {
+  padding: 0px 20px 50px 30px;
+}
+.deleteAnnoContainer {
+  padding-bottom: 15px;
+  padding-right: 25px;
+}
+
+#mode {
+  padding: 10px 0px 0px 0px;
+}
+#modebutton {
+  display: none;
+}
+.label {
+    /*padding: 0px 25px 35px 25px;*/
+    padding: 0px 25px 10px 25px;
+    color: #fff;
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    display: block;
+}
+#annobuttongroup {
+  padding: 10px 0px 25px 0px;
+  display: none;
+}
+.btn-group {
+  padding-bottom: 15px;
+}
+.btn-group button, .spanbtn {
+    /* background-color: #fff; */
+    border: 1px solid #fff;
+    border-radius: 8px;
+    /* color: #444444; */
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 0px 10px 0 11px;
+    text-align: center;
+    /* margin: 6px 0px 6px 27px; */
+    /* width: 80%; */
+}
+.btn-group input {
+  margin-left: 29px;
+  padding: 7px 10px 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #DDE3EC;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 13px;
+  outline: none;
+  width: 72%;
+}
+.modebutton button {
+  border: 3px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 35px;
+  padding: 0px 10px 0 11px;
+  text-align: center;
+}
+.btn-small button{
+  width: 35%;
+  margin: 6px 0px 0px 27px;
+}
+.btn-wide button {
+  width: 80%;
+  margin: 6px 0px 6px 27px;
+}
+.btn-group label {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #444444;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 35px;
+  padding: 0px 10px 0px 11px;
+  margin: 10px 0px 5px 28px;
+  text-align: center; 
+  display: block;
+  width: 72%;
+}
+#fileSelectorPanels {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#fileSelectorPanels input {
+  padding: 8px 8px 8px 8px;
+  text-decoration-line: underline;
+  font-size: 15px;
+  color: #c0c0c0;
+  border: 2px solid #d5d9d9;
+  border-radius: 8px;
+  margin: 10px 30px 10px 30px; 
+}
+#importExportMenu {
+  display: none;
+}
+#importExportBtnContainer input[type="file"] {
+  display: none;
+}
+#doneresetbuttons {
+    display: none;
+}
+#doneresetbuttons button:hover { 
+  color:#FFFFFF;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+#done:hover {
+  background-color: green;
+}
+#reset:hover {
+  background-color: red;
+}
+.initialNotVisible {
+  display: none;
+}
+.btn-group .btn-unclickable {
+  pointer-events: none;
+  background-color: darkgrey;
+  border: 1px solid darkgrey;
+}
+/* Template EditAnnotationContent */
+.formbold-form-wrapper {
+    padding: 15px 0px 15px 5px;
+}
+.input-fields input {
+  width: 88%;
+}
+.width-90 {
+  width: 90%;
+}
+.width-97 {
+  width: 97%;
+}
+.commentcontainer {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.input-fields {
+  display: grid;
+  grid-template-columns: max-content 1fr 40px;
+  gap: 5px;
+}
+.input-fields label {
+  text-align: right;
+}
+.formbold-form-input::placeholder {
+  color: #536387;
+}
+.formbold-form-label {
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+  display: block;
+  margin: 5px 0 5px 0;
+  font-family: sans-serif;
+}
+.additional-margin {
+  margin-bottom: 20px;
+}
+.red-text {
+  color: #FAD1D1;
+}
+/* additional stuff for template */
+svg {
+  pointer-events: none;
+}
+.notClickable {
+  pointer-events: none;
+}
+.deletebtn {
+  border-radius: 5px;
+  border: 0px solid #DDE3EC;
+  background-color: #C71414;
+  padding-top: 2px;
+  font-size: 15px;
+}
+.deleteWrapper {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #C71414;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.transformDown-2 {
+  transform: translate(0px,2px);
+}
+.tagcontainer {
+  display: inline;
+  /* padding-top: 10px; */
+}
+#defaultTags {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+}
+.taglist {
+  margin-top: 7px;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+.taglabel {
+  padding: 2px 8px;
+  display: inline-block;
+  /* color: #2D3033; */
+  /* font-weight: bold; */
+  font-family: sans-serif;
+}
+.taglist li {
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 180%;
+  background-color: #FFFFFF;
+  width: fit-content;
+  display: inline-block;
+  border-radius: 5px;
+}
+.formbold-form-input {
+  padding: 7px 10px 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #DDE3EC;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  /* color: #07074D; */
+  outline: none;
+  resize: none;
+}
+
+.importExportDisplay {
+  padding: 5px 15px 10px 15px;
+  width: fit-content;
+  height: fit-content;
+  background-color: #444444;
+  padding: 8px 8px 8px 8px;
+  text-decoration-line: underline;
+  font-size: 15px;
+  color: #c0c0c0;
+  display: inline-block;
+  border: 2px solid #d5d9d9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 70%;
+  margin: 10px 30px 10px 30px;  
+}
+
+/* Do not delete this otherwise code will not work in all browsers (e.g. Firefox) */
+.hidden {
+  display: none;
+}
+
+/* Infomation menu */
+#infocontainer {
+  grid-template-rows: min-content 1fr min-content;
+}
+.spanbtn {
+  width: 80%;
+  margin: 35px 6px 6px 27px;
+  display: block;
+}
+#aboutBtnDiv {
+  display: inline;
+  padding: 10px 0 25px 0;
+}
+#aboutcontainer {
+  padding: 0 20px 0 15px;
+}
+
+.display-block {
+  display: block;
+}
+
+/* Overlay boxes */
+.overlay {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color: white; 
+  background: #444444; 
+  z-index: 1000;
+  border: 1px solid #444444;
+  border-radius: 8px;
+  padding: 15px 10px 15px 10px;
+}
+
+/* Buttons */
+.button {
+  border: 3px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 35px;
+  padding: 0px 10px 0 11px;
+  text-align: center;
+}
+.background-white {
+  background-color: #fff;
+  color: #444444;
+}
+.background-red {
+  background-color: #C71414;
+  color: #fff;
+}
+.background-grey {
+  background-color: #444444;
+  color: #fff;
+}
+
+/* Images */
+img {
+  width: 100%;
+}
+
+/* Links */
+a {
+  color: white;
+}

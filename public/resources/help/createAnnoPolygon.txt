@@ -1,0 +1,8 @@
+Here you can create a new annotation in the form of a polygon.
+
+Start by clicking on a point on the cuneiform tablet to determine the start point of the polygon. Everytime you click on a new point on the tablet the shortest line between the previous and the new point on the surface of the tablet is computed. Depending on your hardware and the length of the line this may take a while. 
+
+Once you click on the starting point again the polygon is seen as closed and its form can be changed. For that click on a point on the line (that point gets highlighted) and then click on the point on the tablet this point shall be moved to. The lines between the moved point and the endpoints of the line(s) are then redrawn. 
+
+By pressing crtl+z on your keyboard line drawing and point manipulations can be undone.
+'Reset' deletes your annotation and takes you back to the main menu. 

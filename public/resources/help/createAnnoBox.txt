@@ -1,0 +1,13 @@
+Here you can create a new annotation in the form of a box. 
+
+Clicking on a point on the cuneiform tablet positions the box in the scene. 
+
+The box can be moved around with the left mouse button. Alternatively you can use the menu on the left to change the position of the box.
+
+The size of the box can be changed on the left side menu as well.
+
+'Reset' deletes your annotation and takes you back to the main menu. 
+
+The box can be rotated in any direction by using the keyboard shortcuts shown below:
+
+<img src="/cuan3d/resources/help/Shortcuts_turning.png" alt="Shortcuts for turning model of cuneiform tablet">
